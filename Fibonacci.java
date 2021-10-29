@@ -3,12 +3,12 @@ public class Fibonacci {
  
 	public static void main(String[] args) 
 	{	
-		float count = 10;
+		float count;
 		int a = 0;
 		int b = 1;
-    		//Scanner scan = new Scanner(System.in);
-    		//System.out.print("Enter the value of n : \n");
-    		//count = scan.nextFloat();
+    		Scanner scan = new Scanner(System.in);
+    		System.out.print("Enter the value of n : \n");
+    		count = scan.nextFloat();
 		  
 	        System.out.print("Fibonacci Series of "+count+" numbers is as follows:");
  
